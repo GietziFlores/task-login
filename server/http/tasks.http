@@ -1,0 +1,31 @@
+### Obtener todas las tareas
+GET http://localhost:3000/api/tasks
+Authorization: Bearer TU_TOKEN_AQUI
+
+### Obtener tarea por ID
+GET http://localhost:3000/api/tasks/ID_DE_TAREA
+Authorization: Bearer TU_TOKEN_AQUI
+
+### Crear tarea
+POST http://localhost:3000/api/tasks
+Authorization: Bearer TU_TOKEN_AQUI
+Content-Type: application/json
+
+{
+  "title": "Mi primera tarea",
+  "description": "Descripción de la tarea"
+}
+
+### Actualizar tarea
+PUT http://localhost:3000/api/tasks/ID_DE_TAREA
+Authorization: Bearer TU_TOKEN_AQUI
+Content-Type: application/json
+
+{
+  "title": "Tarea actualizada",
+  "completed": true
+}
+
+### Eliminar tarea
+DELETE http://localhost:3000/api/tasks/ID_DE_TAREA
+Authorization: Bearer TU_TOKEN_AQUI
