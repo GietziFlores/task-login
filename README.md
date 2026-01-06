@@ -21,6 +21,7 @@ Una aplicación web completa para la gestión de tareas con autenticación de us
 - **Multer** para subida de archivos
 - **bcryptjs** para hashing de contraseñas
 - **Helmet, CORS, Rate Limiting** para seguridad
+- **Jest** y **Supertest** para testing
 
 ### Frontend
 - **React** con **Vite**
@@ -57,6 +58,21 @@ PORT=3000
 MONGODB_URI=mongodb://localhost:27017/taskflow
 JWT_SECRET=tu_jwt_secret_aqui
 ```
+
+## 🧪 Testing
+
+### Backend Tests
+```bash
+cd server
+npm test
+```
+
+Las pruebas incluyen:
+- **Auth API**: Registro, login, validaciones
+- **Task API**: CRUD de tareas, asignación, permisos
+- **User API**: Gestión de usuarios (solo admin), perfiles
+
+**Cobertura**: 18 tests automatizados con Jest y Supertest, usando MongoDB Memory Server para aislamiento.
 
 ## 🚀 Uso
 

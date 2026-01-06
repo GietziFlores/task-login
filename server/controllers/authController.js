@@ -87,7 +87,7 @@ export const login = async (req, res) => {
 // @access  Private
 export const updateProfile = async (req, res) => {
   try {
-    const { workArea, description } = req.body;
+    const { name, workArea, description } = req.body;
 
     const user = await User.findById(req.user._id);
 
@@ -96,6 +96,7 @@ export const updateProfile = async (req, res) => {
     }
 
     // Actualizar campos de texto si se proporcionan
+    if (name !== undefined && name !== '') user.name = name;
     if (workArea !== undefined && workArea !== '') user.workArea = workArea;
     if (description !== undefined) user.description = description;
 
