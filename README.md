@@ -61,12 +61,23 @@ El proyecto incluye pipelines automatizados de CI/CD:
 - ✅ **Security**: Escaneo de vulnerabilidades
 - ✅ **Deploy**: Despliegue automatizado
 
-### Dependabot
-Configurado para mantener dependencias actualizadas:
-- **Backend**: Dependencias Node.js semanales
-- **Frontend**: Dependencias React/Vite semanales
-- **Docker**: Actualizaciones de imágenes base
-- **GitHub Actions**: Workflows actualizados
+## 🛠️ Code Quality Tools
+
+### Linting y Formateo
+```bash
+# Backend
+cd server
+npm run lint          # Verificar código con ESLint
+npm run lint:fix      # Corregir problemas automáticamente
+npm run format        # Formatear código con Prettier
+npm run format:check  # Verificar formato
+npm run build         # Ejecutar lint + format + tests
+```
+
+### Pre-commit Hooks (Futuro)
+- ESLint para calidad de código
+- Prettier para formato consistente
+- Tests automáticos antes de commits
 
 ## 📦 Instalación
 
