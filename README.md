@@ -219,7 +219,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👨‍💻 Autor
 
-**Tu Nombre** - [Tu GitHub](https://github.com/tuusuario)
+GietziFlxwrs- [Tu GitHub](https://github.com/GietziFlores)
 
 ## 🙏 Agradecimientos
 
