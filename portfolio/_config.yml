@@ -1,0 +1,21 @@
+# Portfolio Website
+
+Este es mi sitio web de portafolio personal que muestra mis habilidades como desarrollador Full Stack.
+
+## Tecnologías
+- HTML5, CSS3, JavaScript
+- Diseño responsivo
+- Animaciones modernas
+
+## Proyecto Destacado: TaskFlow
+Una aplicación completa de gestión de tareas con:
+- Autenticación JWT
+- Roles de usuario
+- Testing automatizado
+- Docker containerization
+- CI/CD con GitHub Actions
+
+## Contacto
+- Email: gietziflores@example.com
+- GitHub: https://github.com/GietziFlores
+- LinkedIn: https://linkedin.com/in/gietziflores
